@@ -14,6 +14,7 @@ RUN apt-get update && \
     cmake \
     clang \
     build-essential \
+    gdb \
     libssl-dev \
     libgl1-mesa-dev \
     libglib2.0-0 \

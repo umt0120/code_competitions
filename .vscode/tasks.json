@@ -3,7 +3,7 @@
   "tasks": [
     {
       "type": "cppbuild",
-      "label": "Debug C/C++ : g++ build active file",
+      "label": "Debug C/C++: g++ build active file",
       "command": "/usr/bin/g++",
       "args": [
         "-fdiagnostics-color=always",
@@ -22,7 +22,7 @@
     },
     {
       "type": "cppbuild",
-      "label": "Release C/C++ : g++ build active file",
+      "label": "Release C/C++: g++ build active file",
       "command": "/usr/bin/g++",
       "args": [
         "-DNDEBUG",
