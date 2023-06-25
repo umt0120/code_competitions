@@ -1,0 +1,22 @@
+{
+  // ChatGPT - Genie AI
+  "genieai.personalizedName": "Genie",
+  "genieai.openai.model": "gpt-3.5-turbo",
+  "genieai.openai.temperature": 0.7,
+  "genieai.promptPrefix.addTests": "次のコードに対するテストを実装してください",
+  "genieai.promptPrefix.findProblems": "次のコードの問題点を見つけてください",
+  "genieai.promptPrefix.optimize": "次のコードを最適化してください",
+  "genieai.promptPrefix.explain": "次のコードを説明してください",
+  "genieai.promptPrefix.addComments": "次のコードにコメントを追加してください",
+  "genieai.promptPrefix.completeCode": "次のコードを完成させてください",
+  "genieai.promptPrefix.customPrompt1": "次の文章を翻訳してください",
+  "genieai.promptPrefix.customPrompt1-enabled": true,
+  "genieai.response.showNotification": true,
+  "genieai.promptPrefix.adhoc-enabled": false,
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.indentSize": 4,
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": false,
+  },
+}
