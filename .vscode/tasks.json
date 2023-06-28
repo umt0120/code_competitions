@@ -9,7 +9,7 @@
         "-fdiagnostics-color=always",
         "-g",
         "-I${workspaceFolder}/include",
-        "${workspaceFolder}/src/**/*.cpp",
+        "${file}",
         "-o",
         "${workspaceFolder}/bin/${fileBasenameNoExtension}_d"
       ],
@@ -27,7 +27,7 @@
       "args": [
         "-DNDEBUG",
         "-I${workspaceFolder}/include",
-        "${workspaceFolder}/src/**/*.cpp",
+        "${file",
         "-o",
         "${workspaceFolder}/bin/${fileBasenameNoExtension}"
       ],
